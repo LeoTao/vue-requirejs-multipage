@@ -3,14 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title><%= title %></title>
-	<link rel='stylesheet' href='/css/index/main.css' />
+	<link rel='stylesheet' href='/css/list/main.css' />
 </head>
 <body>
 <% include ../common/header %>
 
 <div class="wrapper">
-	hello vue
-	<a href="/list">list page</a>
+	<ul class="list-content">
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+		<li>d</li>
+		<li><a href="/">首页</a></li>
+	</ul>
 </div>
 
 <% include ../common/footer %>
