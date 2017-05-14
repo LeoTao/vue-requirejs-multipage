@@ -9,9 +9,12 @@
   "author": "taolei",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.0.1",
     "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^1.2.2"
   },
   "dependencies": {
     "ejs": "^2.5.6",

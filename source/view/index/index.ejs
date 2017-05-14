@@ -11,8 +11,15 @@
 <div class="wrapper">
 	hello vue
 	<a href="/list">list page</a>
+
+	<div id="vue_wrapper">
+		<my-button ></my-button>
+	</div>
 </div>
 
+<% include ../component/my_component/button %>
 <% include ../common/footer %>
+
+<script data-main="/js/index/main.js" src="/js/lib/require.js"></script>
 </body>
 </html>
